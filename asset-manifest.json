@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/leutamo/grid-x-paint.git/static/css/main.904337a8.css",
+    "main.js": "/leutamo/grid-x-paint.git/static/js/main.13362353.js",
+    "static/js/787.aa98b48e.chunk.js": "/leutamo/grid-x-paint.git/static/js/787.aa98b48e.chunk.js",
+    "index.html": "/leutamo/grid-x-paint.git/index.html",
+    "main.904337a8.css.map": "/leutamo/grid-x-paint.git/static/css/main.904337a8.css.map",
+    "main.13362353.js.map": "/leutamo/grid-x-paint.git/static/js/main.13362353.js.map",
+    "787.aa98b48e.chunk.js.map": "/leutamo/grid-x-paint.git/static/js/787.aa98b48e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.904337a8.css",
+    "static/js/main.13362353.js"
+  ]
+}
