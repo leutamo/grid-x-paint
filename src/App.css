@@ -1,3 +1,12 @@
+:root {
+  --silver-border: solid 1px #ddd;
+  --cell-size: 40px;
+}
+
+html {
+  background: #ddd;
+}
+
 .App {
   text-align: center;
 }
@@ -28,11 +37,59 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.controls {
+  display: flex;
+}
+
+fieldset {
+  border: solid 1px lightslategray;
+}
+
+label,
+legend {
+  font-size: 14px;
+}
+
+section {
+  margin-bottom: 1rem;
+}
+
+section:last-of-type {
+  margin-bottom: 0;
+}
+
+.row {
+  display: flex;
+}
+
+*:last-of-type > .cell {
+  border-bottom: var(--silver-border);
+}
+
+.cell {
+  box-sizing: border-box;
+  display: inline-block;
+  border: none;
+  border-left: var(--silver-border);
+  border-top: var(--silver-border);
+  height: var(--cell-size);
+  width: var(--cell-size);
+  margin: 0;
+  cursor: pointer;
+}
+
+.cell:last-of-type {
+  border-right: var(--silver-border);
+}
+
+.cells.hide-grid .cell {
+  border: none;
 }
